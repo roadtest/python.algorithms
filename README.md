@@ -1,2 +1,3 @@
 # python.algorithms
-practice Algorithms with python3
+
+Some utilities and practice Algorithms with python3
