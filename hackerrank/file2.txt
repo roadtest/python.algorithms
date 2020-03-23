@@ -1,0 +1,4 @@
+curl -kv  https://www.google.com
+curl -kv  https://www.yahoo.com
+curl -kv  https://www.ibm.com
+curl -kv  https://www.sun.com
