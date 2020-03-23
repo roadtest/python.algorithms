@@ -1,5 +1,6 @@
 #!/usr/bin/env python3
 
+
 _end = '_end_'
 def make_trie(*words):
     root = dict()
