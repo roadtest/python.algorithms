@@ -5,7 +5,7 @@ def validPalindrome(s):
         return False
 
     left,right = findDifference(s, 0, len(s) -1)
-    if left >= right; 
+    if left >= right: 
         return True
 
     return isPalindrome(s,left + 1, right) or isPalindrome(left, right -1)
@@ -23,5 +23,5 @@ def findDifference(s, left, right):
     return left, right 
 
 
-if __name__ = '__main__':
-    validPalindrome('abcba')
+if __name__ == '__main__':
+    print(validPalindrome('abcba'))
