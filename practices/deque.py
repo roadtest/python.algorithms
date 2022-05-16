@@ -1,0 +1,7 @@
+d = deque(maxlen=5)
+d.extend([1,2,3,4,5])
+print(d)
+# deque([1, 2, 3, 4, 5], maxlen=5)
+d.append(10)
+print(d)
+# deque([2, 3, 4, 5, 10], maxlen=5)
