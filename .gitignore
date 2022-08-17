@@ -4,3 +4,7 @@
 /slack
 /string.algorithms
 leetcode/
+.metals
+.vscode
+.pytest_cache
+__pycache__
